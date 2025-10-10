@@ -1,4 +1,7 @@
 # nightMonkeyGames.github.io
+
+Trello link: https://trello.com/b/e3bjxExv/scrum-board
+
 This is the Github Repository for "Intro to Game Design" Project, members, Chris Bolger, Padraic Coffey. Adam Christensen
 
 This is a group project that will be deployed in portfolio format.  To get started you need to form a group of two or three people.  This group will be your project group for the semester.  The name of your project group and names of team members need to be recorded on the Project Wiki.
