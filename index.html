@@ -7,13 +7,16 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: stretch;    
       background-image: url("Images/climber.png");
       background-size: cover;
-      background-position: center top;
+      background-position: center bottom;
       background-repeat: no-repeat;
-      color: #f0f0f0;
-    }
+}
+
 
     header {
       background-color: rgba(31, 31, 31, 0.8); /* semi-transparent overlay */
@@ -38,17 +41,17 @@
     }
 
     .game-section {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 2rem;
-      background-color: rgba(30, 30, 30, 0.85);
-      border-radius: 12px;
-      max-width: 600px;
-      width: 100%;
-      box-sizing: border-box;
-    }
+        flex: 1;
+        max-width: 80%;
+        background-color: rgba(30, 30, 30, 0.85);
+        padding: 2rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
 
 
     .game-card {
