@@ -7,11 +7,12 @@
   <style>
     body {
       margin: 0;
-       font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif;
       background-image: url("Images/climber.png");
       background-size: cover;
       background-position: center top;
       background-repeat: no-repeat;
+
 }
 
 
@@ -40,14 +41,16 @@
     .game-section {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
       padding: 2rem;
-      background-color: rgba(30, 30, 30, 0.85);
-      border-radius: 12px;
-      max-width: 600px;
-      width: 100%;
+      background-color: rgba(30, 30, 30, .8);
+      justify-content:  center top;
+      max-width:100%;
+      width: 80%;
+      height: 100%;
       box-sizing: border-box;
+      margin:0 auto;
+      
     }
 
 
@@ -59,7 +62,7 @@
       margin: 1rem;
       padding: 1rem;
       max-width: 300px;
-      text-align: center;
+      text-align: top;
     }
 
     .game-card img {
@@ -70,6 +73,7 @@
     .game-title {
       margin-top: 1rem;
       font-size: 1.2rem;
+      color: white;
     }
 
     @media (max-width: 600px) {
@@ -94,7 +98,7 @@
   <section class="game-section">
     <div class="game-card">
       <img src="https://via.placeholder.com/300x200.png?text=Game+Image" alt="Game Image" />
-      <div class="game-title">Game Title</div>
+      <div class="game-title">Climber Game</div>
     </div>
   </section>
 </body>
