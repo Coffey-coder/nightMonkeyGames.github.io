@@ -1,156 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Night Monkey Games</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-image: url("Images/climber.png");
-      background-size: cover;
-      background-position: center top;
-      background-repeat: no-repeat;
-
-}
-
-
-    header {
-      background-color: rgba(31, 31, 31, 0.8); /* semi-transparent overlay */
-      padding: 1rem;
-      
-      text-align: center;
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      background-color: #2a2a2a;
-      padding: 0.5rem;
-    }
-
-    nav a {
-      color: #f0f0f0;
-      text-decoration: underline;
-    }
-
-    .game-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 2rem;
-      background-color: rgba(30, 30, 30, .8);
-      justify-content:  center top;
-      max-width:100%;
-      width:75%;
-      height: 100%;
-      box-sizing: border-box;
-      margin:0 auto;
-      
-    }
-
-
-    .game-card {
-      background-color: #1e1e1e;
-      border-radius: 8px;
-      margin: 1rem;
-      padding: 1rem;
-      max-width: 300px;
-      text-align: top;
-    }
-
-    .game-card img {
-      width: 100%;
-      border-radius: 4px;
-    }
-
-    .game-title {
-      margin-top: 1rem;
-      font-size: 1.2rem;
-      color: white;
-    }
-    
-    .card-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      width: 75%;
-      margin: 0 auto;
-    }
-
-    
-    .card {
-        display:flex;
-        background-color: #1e1e1e;
-        color: white;
-        border-radius: 8px;
-        padding: 1rem;
-        width: 30%;
-        min-width: 250px;
-        box-sizing: border-box;
-        cursor: pointer;
-    }
-
-    p {
-        color: white;
-    }
-
-    @media (max-width: 600px) {
-      nav {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .game-card {
-        max-width: 90%;
-      }
-      
-     
-    }
-  </style>
-</head>
-<body>
-  <header>Night Monkey Games</header>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
-  <section class="game-section">
-    <div class="game-card">
-      <img src="Images/climberheading.png" alt="Game Image" />
-      <div class="game-title">Climber Game</div>
-      
-    </div>
-    <p>To be, or not to be: that is the question: whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by opposing end them? To die: to sleep; no more; and, by a sleep to say we end the heart-ache and the thousand natural shocks that flesh is heir to, 'tis a consummation devoutly to be wish'd. To die, to sleep; to sleep: perchance to dream: ay, there's the rub;
-        for in that sleep of death what dreams may come when we have shuffled off this mortal coil, must give us pause. There's the respect that makes calamity of so long a life; for who would bear the whips and scorns of time, the oppressor's wrong, the proud man's contumely, the pangs of dispriz'd love, the law's delay, the insolence of office, and the spurns that patient merit of the unworthy takes, when he himself might his quietus make with a bare bodkin? Who would fardels bear, to grunt and sweat under a weary life, but that the dread
-          </p>
-    <div class="card-container">
-    <div class="card">
-        <div>Game Title</div>
-        <div>More info about the game...</div>
-    </div>
-    <div class="card">
-        <div>Game Title</div>
-        <div>More info about the game...</div>
-    </div>
-    <button class="ui primary button">Click Me</button>
-    <div class="card">
-        <div>Game Title</div>
-        <div>More info about the game...</div>
-    </div>
-    </div>
-  </section>
-<!-- Fomantic UI stuff -->
-<!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.css">
-
-<!-- JS -->
-<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Night Monkey Games</title>
+  </head>
+  <body>
+    <header>Night Monkey Games</header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <section class="game-section">
+      <div class="game-card">
+        <img src="Images/climberheading.png" alt="Game Image" />
+        <div class="game-title">Climber Game</div>
+        
+      </div>
+      <p>To be, or not to be: that is the question: whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by opposing end them? To die: to sleep; no more; and, by a sleep to say we end the heart-ache and the thousand natural shocks that flesh is heir to, 'tis a consummation devoutly to be wish'd. To die, to sleep; to sleep: perchance to dream: ay, there's the rub;
+          for in that sleep of death what dreams may come when we have shuffled off this mortal coil, must give us pause. There's the respect that makes calamity of so long a life; for who would bear the whips and scorns of time, the oppressor's wrong, the proud man's contumely, the pangs of dispriz'd love, the law's delay, the insolence of office, and the spurns that patient merit of the unworthy takes, when he himself might his quietus make with a bare bodkin? Who would fardels bear, to grunt and sweat under a weary life, but that the dread
+            </p>
+      <div class="card-container">
+      <div class="card">
+          <div>Game Title</div>
+          <div>More info about the game...</div>
+      </div>
+      <div class="card">
+          <div>Game Title</div>
+          <div>More info about the game...</div>
+      </div>
+      <button class="ui primary button">Click Me</button>
+      <div class="card">
+          <div>Game Title</div>
+          <div>More info about the game...</div>
+      </div>
+      </div>
+    </section>
+  <!-- Fomantic UI stuff -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.css">
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.js"></script>
+  </body>
 </html>
