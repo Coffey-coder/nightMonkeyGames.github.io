@@ -2,6 +2,8 @@
 
 Trello link: https://trello.com/b/e3bjxExv/scrum-board
 
+Powerpoint link: https://wit-my.sharepoint.com/:p:/r/personal/20111314_wit_ie/_layouts/15/Doc.aspx?sourcedoc=%7BF2C3AA7E-6C8A-4630-AE04-58F262C1BE7B%7D&file=Presentation.pptx&action=edit&mobileredirect=true
+
 This is the Github Repository for "Intro to Game Design" Project, members, Chris Bolger, Padraic Coffey. Adam Christensen
 
 This is a group project that will be deployed in portfolio format.  To get started you need to form a group of two or three people.  This group will be your project group for the semester.  The name of your project group and names of team members need to be recorded on the Project Wiki.
