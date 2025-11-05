@@ -1,21 +1,52 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-image: url("Images/climber.png");
+  background-image: url("Images/Fireplace.png");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
-/* header {
-  background-color: rgba(31, 31, 31, 0.8); 
-  padding: 1rem;
-  
+
+  header {
+  background: rgba(20, 20, 20, 0.75);
+  padding: 1.2rem 0;
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-} */
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  letter-spacing: 1px;
+}
+
+.title-block {
+  text-align: center;
+  margin-top: 1rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+/* Main title */
+.site-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+
+/* Team names - grouped with title */
+.team-subtitle {
+  margin: 0.3rem 0 0 0;
+  font-size: 1rem;     /* smaller than title (formatting neatness) */
+  color: black;
+  opacity: 0.85;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+
 
 nav {
   display: flex;
@@ -87,6 +118,8 @@ nav a {
     box-sizing: border-box;
     cursor: pointer;
 }
+
+
 
 p {
     color: white;
