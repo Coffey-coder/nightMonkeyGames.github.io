@@ -51,7 +51,7 @@
           <div class="ui raised center aligned centered segment">
             <div class="ui three stackable equal width raised link cards">
               <div class="ui card">
-                <a class="image" href="#">
+                <a class="image ui firstCard modal" href="#">
                   <img src="images/climberBaseOfMountain.jpg" alt="Pitch Video Thumbnail">
                 </a>
                 <div class="content">
@@ -88,5 +88,10 @@
 
     <!-- Fomantic UI JS -->
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.js"></script>
+    <script>
+      $('.ui.firstCard.modal')
+        .modal('show')
+      ;
+    </script>
   </body>
 </html>
