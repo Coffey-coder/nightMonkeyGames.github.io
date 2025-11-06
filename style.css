@@ -106,19 +106,18 @@ nav a {
   margin: 0 auto;
 }
 
-
-.card {
-    display:flex;
-    background-color: #1e1e1e;
-    color: white;
-    border-radius: 8px;
-    padding: 1rem;
-    width: 30%;
-    min-width: 250px;
-    box-sizing: border-box;
-    cursor: pointer;
+.ui.card .image img {
+  height: 200px; /* or whatever fits your layout */
+  object-fit: cover;
+  width: 100%;
 }
 
+.ui.cards > .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
 
 
 p {
