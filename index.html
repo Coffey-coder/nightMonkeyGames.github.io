@@ -50,8 +50,8 @@
         <div class="ten wide column">
           <div class="ui raised center aligned centered segment">
             <div class="ui three stackable equal width raised link cards">
-              <div class="ui card">
-                <a class="image ui firstCard modal" href="#">
+              <div class="ui card" data-modal="first">
+                <a class="image" href="#">
                   <img src="images/climberBaseOfMountain.jpg" alt="Pitch Video Thumbnail">
                 </a>
                 <div class="content">
@@ -61,7 +61,7 @@
                   </div>
                 </div>
               </div>
-              <div class="ui card">
+              <div class="ui card" data-modal="second">
                 <a class="image" href="#">
                   <img src="images/rescue.jpg" alt="Trello Board Thumbnail">
                 </a>
@@ -71,7 +71,7 @@
                   </a>
                 </div>
               </div>
-              <div class="ui card">
+              <div class="ui card" data-modal="third">
                 <a class="image" href="#">
                   <img src="images/riskyClimb.jpg" alt="Scrum Board Thumbnail">
                 </a>
@@ -87,12 +87,45 @@
       </div>
     </div>
 
+    <div class="ui modal" id="first">
+      <div class="header">Pitch Video</div>
+      <div class="content">
+        <p>Details about the pitch video.</p>
+      </div>
+      <div class="actions">
+        <div class="ui approve button">OK</div>
+      </div>
+    </div>
+    
+    <div class="ui modal" id="second">
+      <div class="header">Trello Brainstorm Board</div>
+      <div class="content">
+        <p>Details about the Trello board.</p>
+      </div>
+      <div class="actions">
+        <div class="ui approve button">OK</div>
+      </div>
+    </div>
+    
+    <div class="ui modal" id="third">
+      <div class="header">Scrum Board</div>
+      <div class="content">
+        <p>Details about the Scrum board.</p>
+      </div>
+      <div class="actions">
+        <div class="ui approve button">OK</div>
+      </div>
+    </div>
+
     <!-- Fomantic UI JS -->
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.js"></script>
     <script>
-      $('.ui.firstCard.modal')
-        .modal('show')
-      ;
+      document.querySelectorAll('.ui.card[data-modal]').forEach(card => {
+        card.addEventListener('click', () => {
+          const modalId = card.getAttribute('data-modal');
+          $('#' + modalId).modal('show');
+        });
+      });
     </script>
   </body>
 </html>
