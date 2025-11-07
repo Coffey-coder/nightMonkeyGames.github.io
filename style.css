@@ -1,12 +1,13 @@
-
-body {
+body,
+.ui.grid,
+.ui.segment,
+.ui.card,
+.ui.menu,
+.ui.modal {
   background: transparent !important;
+  box-shadow: none !important;
 }
 
-.ui.grid{
-  background: transparent !important;
- /* box-shadow: none !important;  optional: removes shadows */
-}
 
 
 
