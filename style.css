@@ -20,7 +20,7 @@ body,
 .ui.card,
 .ui.menu,
 .ui.modal {
-  background: transparent !important;
+  background-colour: transparent !important;
   box-shadow: none !important;
 }
 
