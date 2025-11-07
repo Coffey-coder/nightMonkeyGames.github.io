@@ -25,6 +25,7 @@ body,
 }
 
 /* Scrolling background layer */
+
 .scroll-bg {
   position: fixed;
   top: 0;
@@ -40,6 +41,7 @@ body,
   overflow-y: hidden;
   white-space: nowrap;
 }
+
 header {
   background: rgba(20, 20, 20, 0.75);
   padding: 1.2rem 0;
