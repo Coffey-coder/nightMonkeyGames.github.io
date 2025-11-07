@@ -7,11 +7,11 @@ html, body {
 }
 
 /* Remove background from body */
-body {
+/* body {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-}
+} */
 
 /* Transparent Fomantic UI components */
 body,
