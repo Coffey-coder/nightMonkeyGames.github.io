@@ -45,7 +45,7 @@ body,
     background-position-x: 0;
   }
   to {
-    background-position-x: -1000px; /* adjust based on image width */
+    background-position-x: -2000px; /* adjust based on image width */
   }
 }
 
