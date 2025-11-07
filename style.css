@@ -1,9 +1,22 @@
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  font-family: body;
+  margin: 1rem;
   background: transparent !important;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
+}
+
+a{
+  font-family: header;
+}
+
+@font-face {
+  font-family: header; /* set name */
+  src: url(fonts/GOUDYSTO.TTF); /* url of the font */
+}
+
+@font-face {
+  font-family: body; /* set name */
+  src: url(fonts/GOUDOS.TTF); /* url of the font */
 }
 
 /* Remove background from body */
@@ -14,14 +27,32 @@ html, body {
 } */
 
 /* Transparent Fomantic UI components */
-body,
-.ui.grid,
 .ui.segment,
 .ui.card,
-.ui.menu,
-.ui.modal {
-  background-colour: transparent !important;
+.ui.menu {
+  background: rgba(255, 255, 255, 0.5) !important;
+  height: 100%;
 }
+
+
+.ui.modal,
+.ui.modal > .header,
+.ui.modal > .content,
+.ui.modal > .actions{
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.ui.modal > .header{
+  font-family: header;
+}
+.ui.modal > .content{
+  font-family: body;
+}
+/*
+.ui.grid{
+  background: rgba(255, 255, 255, 0.25) !important;
+}
+*/
 
 /* Scrolling background layer */
 
@@ -33,11 +64,11 @@ body,
   height: 100%;
   z-index: -1;
   background-image: url('images/scrollingBackgroundRiskyPeaks.jpg');
-  background-repeat: repeat-x;
+  background-repeat: repeat;
   background-size: contain;
   background-position: top left;
   animation: scrollBackground 60s linear infinite;
-  overflow: hidden; /* prevents scrollbars */
+  overflow-x: hidden; /* prevents scrollbars */
 }
 
 @keyframes scrollBackground {
@@ -53,7 +84,13 @@ body,
   animation: scrollBackground 60s linear infinite;
 }
 
+.ui.header,
+.ui.card > .content > a.header{
+  font-family: header;
+}
+
 header {
+  font-family: header;
   background: rgba(20, 20, 20, 0.75);
   padding: 1.2rem 0;
   text-align: center;
@@ -81,99 +118,11 @@ header {
 
 /* Team names - grouped with title */
 .team-subtitle {
-  margin: 0.3rem 0 0 0;
-  font-size: 1rem;     /* smaller than title (formatting neatness) */
+  margin: 0.05rem;
+  font-style: oblique;
+  font-size: 1.5rem;     /* smaller than title (formatting neatness) */
   color: black;
-  opacity: 0.85;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.2px;
 }
 
-
-
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  background-color: #2a2a2a;
-  padding: 0.5rem;
-}
-
-nav a {
-  color: #f0f0f0;
-  text-decoration: underline;
-}
-
-.game-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  background-color: rgba(30, 30, 30, .8);
-  justify-content:  center top;
-  max-width:100%;
-  width:75%;
-  height: 100%;
-  box-sizing: border-box;
-  margin:0 auto;
-  
-}
-
-
-.game-card {
-  background-color: #1e1e1e;
-  border-radius: 8px;
-  margin: 1rem;
-  padding: 1rem;
-  max-width: 300px;
-  text-align: top;
-}
-
-.game-card img {
-  width: 100%;
-  border-radius: 4px;
-}
-
-.game-title {
-  margin-top: 1rem;
-  font-size: 1.2rem;
-  color: white;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  width: 75%;
-  margin: 0 auto;
-}
-
-.ui.card .image img {
-  height: 200px; /* or whatever fits your layout */
-  object-fit: cover;
-  width: 100%;
-}
-
-.ui.cards > .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 50%;
-}
-
-
-p {
-    color: white;
-}
-
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .game-card {
-    max-width: 90%;
-  }
-}
