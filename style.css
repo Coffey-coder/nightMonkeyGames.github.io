@@ -21,7 +21,6 @@ body,
 .ui.menu,
 .ui.modal {
   background-colour: transparent !important;
-  box-shadow: none !important;
 }
 
 /* Scrolling background layer */
@@ -40,6 +39,19 @@ body,
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
+}
+
+@keyframes scrollBackground {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -1000px; /* adjust based on image width */
+  }
+}
+
+.scroll-bg {
+  animation: scrollBackground 60s linear infinite;
 }
 
 header {
