@@ -10,141 +10,139 @@
     <title>Night Monkey Games - Risky Peaks</title>
   </head>
   <body>
-    <div class="scroll-bg">
-      <div class="ui centered grid">
-        <div class="row">
-          <div class="twelve wide center aligned column">
-            <div class="ui title">
-              <h1 class="ui header">Night Monkey Games</h1>
-              <p class="team-subtitle">Adam Christensen • Padraic Coffey • Christopher Bolger</p>
-            </div>
+    <div class="ui centered grid">
+      <div class="row">
+        <div class="twelve wide center aligned column">
+          <div class="ui title">
+            <h1 class="ui header">Night Monkey Games</h1>
+            <p class="team-subtitle">Adam Christensen • Padraic Coffey • Christopher Bolger</p>
           </div>
         </div>
-  
-        <div class="row">
-          <div class="twelve wide column">
-            <div class="ui three item menu">
-              <a class="active item" href="#">Home</a>
-              <a class="item" data-modal="about">About</a>
-              <a class="item" data-modal="contact">Contact</a>
-            </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve wide column">
+          <div class="ui three item menu">
+            <a class="active item" href="#">Home</a>
+            <a class="item" data-modal="about">About</a>
+            <a class="item" data-modal="contact">Contact</a>
           </div>
         </div>
-  
-        <div class="row">
-          <!-- Left column: single card -->
-          <div class="four wide column">
-            <div class="ui raised center aligned segment">
-              <div class="ui centered card">
-                <div class="image">
-                  <img src="images/logo.jpeg" alt="Company logo Image">
+      </div>
+
+      <div class="row">
+        <!-- Left column: single card -->
+        <div class="four wide column">
+          <div class="ui raised center aligned segment">
+            <div class="ui centered card">
+              <div class="image">
+                <img src="images/logo.jpeg" alt="Company logo Image">
+              </div>
+              <div class="content">
+                <div class="header">
+                  Risky Peaks
                 </div>
+              </div>
+            </div>
+            <p>A mountain-climbing platformer where every jump is a risk.</p>
+          </div>
+        </div>
+
+        <!-- Right column: three horizontal cards -->
+        <div class="ten wide column">
+          <div class="ui raised center aligned centered segment">
+            <div class="ui three stackable equal width raised link cards">
+              <div class="ui card" data-modal="pitch">
+                <a class="image" href="#">
+                  <img src="images/climberBaseOfMountain.jpg" alt="Pitch Video Thumbnail">
+                </a>
                 <div class="content">
-                  <div class="header">
-                    Risky Peaks
+                  <a class="header" href="#">Pitch Video</a>
+                  <div class="meta">
+                    <a>Watch the presentation</a>
                   </div>
                 </div>
               </div>
-              <p>A mountain-climbing platformer where every jump is a risk.</p>
-            </div>
-          </div>
-  
-          <!-- Right column: three horizontal cards -->
-          <div class="ten wide column">
-            <div class="ui raised center aligned centered segment">
-              <div class="ui three stackable equal width raised link cards">
-                <div class="ui card" data-modal="pitch">
-                  <a class="image" href="#">
-                    <img src="images/climberBaseOfMountain.jpg" alt="Pitch Video Thumbnail">
+              <div class="ui card" data-modal="brainstorm">
+                <a class="image" href="#">
+                  <img src="images/rescue.jpg" alt="Trello Board Thumbnail">
+                </a>
+                <div class="content">
+                  <a class="header" href="#">
+                    Trello Brainstorm Board
                   </a>
-                  <div class="content">
-                    <a class="header" href="#">Pitch Video</a>
-                    <div class="meta">
-                      <a>Watch the presentation</a>
-                    </div>
-                  </div>
                 </div>
-                <div class="ui card" data-modal="brainstorm">
-                  <a class="image" href="#">
-                    <img src="images/rescue.jpg" alt="Trello Board Thumbnail">
+              </div>
+              <div class="ui card" data-modal="scrum">
+                <a class="image" href="#">
+                  <img src="images/riskyClimb.jpg" alt="Scrum Board Thumbnail">
+                </a>
+                <div class="content">
+                  <a class="header" href="#">
+                    Scrum Board
                   </a>
-                  <div class="content">
-                    <a class="header" href="#">
-                      Trello Brainstorm Board
-                    </a>
-                  </div>
-                </div>
-                <div class="ui card" data-modal="scrum">
-                  <a class="image" href="#">
-                    <img src="images/riskyClimb.jpg" alt="Scrum Board Thumbnail">
-                  </a>
-                  <div class="content">
-                    <a class="header" href="#">
-                      Scrum Board
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-  
-      <div class="ui modal" id="pitch">
-        <div class="header">Pitch Video</div>
-        <div class="content">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/CIZcl9PSw1o?si=hEyVVlDKm9W6zgJp" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="actions">
-          <div class="ui approve button">OK</div>
+    </div>
+
+    <div class="ui modal" id="pitch">
+      <div class="header">Pitch Video</div>
+      <div class="content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CIZcl9PSw1o?si=hEyVVlDKm9W6zgJp" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="actions">
+        <div class="ui approve button">OK</div>
+      </div>
+    </div>
+    
+    <div class="ui modal" id="brainstorm">
+      <div class="header">Trello Brainstorm Board</div>
+      <div class="content">
+        <div class="ui image">
+          <image src="Brainstorm/chrome_WvPlDSRlbQ.png" alt="Brainstorm Trello Board"></image>
         </div>
       </div>
-      
-      <div class="ui modal" id="brainstorm">
-        <div class="header">Trello Brainstorm Board</div>
-        <div class="content">
-          <div class="ui image">
-            <image src="Brainstorm/chrome_WvPlDSRlbQ.png" alt="Brainstorm Trello Board"></image>
-          </div>
-        </div>
-        <div class="actions">
-          <div class="ui approve button">OK</div>
-        </div>
+      <div class="actions">
+        <div class="ui approve button">OK</div>
       </div>
-      
-      <div class="ui modal" id="scrum">
-        <div class="header">Scrum Board</div>
-        <div class="content">
-          <p>Details about the Scrum board.</p>
-        </div>
-        <div class="actions">
-          <div class="ui approve button">OK</div>
-        </div>
+    </div>
+    
+    <div class="ui modal" id="scrum">
+      <div class="header">Scrum Board</div>
+      <div class="content">
+        <p>Details about the Scrum board.</p>
       </div>
-  
-      <div class="ui modal" id="contact">
-        <div class="header">Scrum Board</div>
-        <div class="content">
-          <p>Details about the Scrum board.</p>
-        </div>
-        <div class="actions">
-          <div class="ui approve button">OK</div>
-        </div>
+      <div class="actions">
+        <div class="ui approve button">OK</div>
       </div>
-  
-      <div class="ui modal" id="about">
-        <div class="header">Scrum Board</div>
-        <div class="content">
-          <p>Details about the Scrum board.</p>
-        </div>
-        <div class="actions">
-          <div class="ui approve button">OK</div>
-        </div>
+    </div>
+
+    <div class="ui modal" id="contact">
+      <div class="header">Scrum Board</div>
+      <div class="content">
+        <p>Details about the Scrum board.</p>
       </div>
-   </div>
+      <div class="actions">
+        <div class="ui approve button">OK</div>
+      </div>
+    </div>
+
+    <div class="ui modal" id="about">
+      <div class="header">Scrum Board</div>
+      <div class="content">
+        <p>Details about the Scrum board.</p>
+      </div>
+      <div class="actions">
+        <div class="ui approve button">OK</div>
+      </div>
+    </div>
     <!-- Fomantic UI JS && jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.js"></script>
