@@ -36,8 +36,8 @@ body,
   background-repeat: repeat-x;
   background-size: contain;
   background-position: top left;
-  overflow: hidden; /* prevent scrollbars */
-  white-space: nowrap;
+  animation: scrollBackground 60s linear infinite;
+  overflow: hidden; /* prevents scrollbars */
 }
 
 @keyframes scrollBackground {
