@@ -1,12 +1,13 @@
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-image: url("Images/Fireplace.png");
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: transparent !important;
 }
+
+.ui.grid{
+  background: transparent !important;
+ /* box-shadow: none !important;  optional: removes shadows */
+}
+
 
 
 .scroll-bg {
