@@ -1,38 +1,44 @@
-html, body {
+html, body, label {
   font-family: body;
   margin: 1rem;
   background: transparent !important;
   overflow-x: hidden !important;
 }
 
-.ui.menu{
+.ui.menu .item,
+.ui.menu .active.item,
+.header{
   font-family: header;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(255, 107, 71);
 }
 
-#download{
-  margin-top: 2rem;
-  font-family: body;
-  font-size: 2rem;
-  font-style: oblique;
-  text-underline-position: below;
-  color: white;
-}
-
+/*
 .ui.raised.cards a.card:hover,
 .ui.link.cards .raised.card:hover,
 a.ui.raised.card:hover,
 .ui.link.raised.card:hover{
   box-shadow: 10px 10px rgb(230, 147, 0);
 }
+*/
+.ui.three.equal.width.raised.link.stackable.cards > .ui.card:hover{
+  box-shadow: 6px 6px rgb(255, 107, 71);
+}
 
 .ui.cards > .raised.card,
 .ui.raised.cards > .card,
-.ui.raised.card {
-  box-shadow: 10px 10px rgb(230, 147, 0);
+.ui.raised.card{
+  box-shadow: 8px 8px rgb(239, 189, 99);
 }
 
-a:hover{
-  color: rgb(230, 147, 0) !important;
+
+.ui.raised.cards > .card,
+.ui.center.aligned.content p:hover,
+.ui.menu .active.item:hover,
+.ui.menu .item:hover,
+.ui.three.equal.width.raised.link.stackable.cards .ui.card .content .header:hover{
+  color: rgb(255, 214, 141) !important;
+  text-shadow: 1px 1px rgb(255, 107, 71);
 }
 
 /*
@@ -41,6 +47,17 @@ a:hover,
   color: #ffaf00 !important;
 }
 */
+
+.ui.center.aligned.content p a,
+label
+{
+  color: white !important;
+}
+
+.ui.center.aligned.content p a:hover
+{
+  text-shadow: 1px 1px rgb(255, 107, 71);
+}
 
 @font-face {
   font-family: header;
@@ -78,18 +95,20 @@ a:hover,
   /*background-color: rgba(255, 255, 255, 0.5) !important;*/
   background-color: transparent !important;
 }
-.ui.modal > .content{
+.ui.modal > .content,
+label{
   margin-top: 2rem;
   font-family: body;
   font-size: 2rem;
   font-style: oblique;
   text-underline-position: below;
-  color: white;
+  /*color: white !important;*/
   /*background-color: rgba(255, 255, 255, 0.5) !important;*/
   background-color: transparent !important;
 }
 
-.ui.modal > .content > a{
+.ui.modal > .content > a:link,
+.formLabel{
   margin-top: 2rem;
   font-family: body;
   font-size: 2rem;
@@ -137,9 +156,11 @@ a:hover,
   font-family: header;
 }
 
-header {
+
+
+header{
   font-family: header;
-  background: rgba(20, 20, 20, 0.75);
+  background: rgba(255, 255, 255, 0.75);
   padding: 1.2rem 0;
   text-align: center;
   font-size: 2rem;
@@ -166,10 +187,11 @@ header {
 
 /* Team names - grouped with title */
 .team-subtitle {
+  text-shadow: 1px 1px rgba(255, 107, 71, 0.5);
   margin: 0.05rem;
   font-style: oblique;
-  font-size: 1.5rem;     /* smaller than title (formatting neatness) */
-  color: black;
+  font-size: 1.2rem;     /* smaller than title (formatting neatness) */
+  color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
   letter-spacing: 0.2px;
 }

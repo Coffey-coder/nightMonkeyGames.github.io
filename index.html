@@ -41,7 +41,7 @@
                   <img src="images/climberBaseOfMountain.jpg" alt="Pitch Video Thumbnail">
                 </a>
                 <div class="content">
-                  <a class="header" href="#">Pitch</a>
+                  <p class="header" href="#">Pitch</p>
                 </div>
               </div>
               <div class="ui card" data-modal="brainstorm">
@@ -49,9 +49,9 @@
                   <img src="images/rescue.jpg" alt="Trello Board Thumbnail">
                 </a>
                 <div class="content">
-                  <a class="header" href="#">
+                  <p class="header" href="#">
                     Brainstorm
-                  </a>
+                  </p>
                 </div>
               </div>
               <div class="ui card" data-modal="scrum">
@@ -59,9 +59,9 @@
                   <img src="images/riskyClimb.jpg" alt="Scrum Board Thumbnail">
                 </a>
                 <div class="content">
-                  <a class="header" href="#">
+                  <p class="header" href="#">
                     Sprint 1
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p><a href="slides/Presentation.pptx" id="download">Download the slides <i class="download icon"></i></a></p>
+        <p><a href="slides/Presentation.pptx">Download the slides <i class="download icon"></i></a></p>
       </div>
       <div class="actions">
         <div class="ui inverted approve button">OK</div>
@@ -89,8 +89,8 @@
       <div class="ui center aligned content">
         <div class="ui image">
           <img src="Brainstorm/chrome_WvPlDSRlbQ.png" alt="Brainstorm Trello Board"/>
-          <p><a href="Brainstorm/chrome_WvPlDSRlbQ.png">Download <i class="download icon"></i></a></p>
         </div>
+        <p><a href="Brainstorm/chrome_WvPlDSRlbQ.png">Download <i class="download icon"></i></a></p>
       </div>
       <div class="actions">
         <div class="ui inverted approve button">OK</div>
@@ -98,19 +98,44 @@
     </div>
     
     <div class="ui basic modal" id="scrum">
-      <div class="ui center aligned header">Scrum Board</div>
+      <div class="ui center aligned header">Sprint 1</div>
       <div class="ui center aligned content">
-        <p>Details about the Scrum board.</p>
+        <div class="ui image">
+          <img src="images/sprintOne.jpg" alt="Brainstorm Trello Board"/>
+        </div>
+        <p><a href="images/sprintOne.jpg">Download <i class="download icon"></i></a></p>
+        <p><a href="https://raw.githubusercontent.com/Coffey-coder/nightMonkeyGames.github.io/refs/heads/main/BurnDownChart/BurndownChart.xlsx">Download Burndown Chart<i class="download icon"></i></a></p>
       </div>
       <div class="actions">
         <div class="ui inverted approve button">OK</div>
       </div>
     </div>
 
-    <div class="ui basic modal" id="contact">
-      <div class="ui center aligned header">Scrum Board</div>
+    <div class="ui basic mini modal" id="contact">
+      <div class="ui center aligned header">Contact Us</div>
       <div class="ui center aligned content">
-        <p>Details about the Scrum board.</p>
+        <div class="ui form">
+          <div class="two fields">
+            <div class="field">
+              <label>First name</label>
+              <input type="text" placeholder="First Name">
+              <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; display: initial !important; float: left !important;"></div>
+            </div>
+            <div class="field">
+              <label>Last name</label>
+              <input type="text" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="field">
+              <label class="formLabel">E-mail</label>
+              <input type="text" placeholder="johnsmith@email.com">
+              <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; display: initial !important; float: left !important;"></div>
+          </div>
+          <div class="field">
+            <label>Your message:</label>
+            <textarea rows="2"></textarea>
+          </div>
+        </div>
       </div>
       <div class="actions">
         <div class="ui inverted approve button">OK</div>
