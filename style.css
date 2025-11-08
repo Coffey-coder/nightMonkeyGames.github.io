@@ -5,18 +5,51 @@ html, body {
   overflow-x: hidden !important;
 }
 
-a{
+.ui.menu{
   font-family: header;
 }
 
+#download{
+  margin-top: 2rem;
+  font-family: body;
+  font-size: 2rem;
+  font-style: oblique;
+  text-underline-position: below;
+  color: white;
+}
+
+.ui.raised.cards a.card:hover,
+.ui.link.cards .raised.card:hover,
+a.ui.raised.card:hover,
+.ui.link.raised.card:hover{
+  box-shadow: 10px 10px rgb(230, 147, 0);
+}
+
+.ui.cards > .raised.card,
+.ui.raised.cards > .card,
+.ui.raised.card {
+  box-shadow: 10px 10px rgb(230, 147, 0);
+}
+
+a:hover{
+  color: rgb(230, 147, 0) !important;
+}
+
+/*
+a:hover,
+.ui.cards>.card>.content>.header:hover{
+  color: #ffaf00 !important;
+}
+*/
+
 @font-face {
-  font-family: header; /* set name */
-  src: url(fonts/GOUDYSTO.TTF); /* url of the font */
+  font-family: header;
+  src: url(fonts/GOUDYSTO.TTF);
 }
 
 @font-face {
-  font-family: body; /* set name */
-  src: url(fonts/GOUDOS.TTF); /* url of the font */
+  font-family: body;
+  src: url(fonts/GOUDOS.TTF);
 }
 
 /* Remove background from body */
@@ -37,16 +70,32 @@ a{
 
 .ui.modal,
 .ui.modal > .actions{
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  background-color: transparent !important;
 }
 
 .ui.modal > .header{
   font-family: header;
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  /*background-color: rgba(255, 255, 255, 0.5) !important;*/
+  background-color: transparent !important;
 }
 .ui.modal > .content{
+  margin-top: 2rem;
   font-family: body;
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 2rem;
+  font-style: oblique;
+  text-underline-position: below;
+  color: white;
+  /*background-color: rgba(255, 255, 255, 0.5) !important;*/
+  background-color: transparent !important;
+}
+
+.ui.modal > .content > a{
+  margin-top: 2rem;
+  font-family: body;
+  font-size: 2rem;
+  font-style: oblique;
+  text-underline-position: below;
+  color: white !important;
 }
 /*
 .ui.grid{
@@ -84,8 +133,7 @@ a{
   animation: scrollBackground 60s linear infinite;
 }
 
-.ui.header,
-.ui.card > .content > a.header{
+.ui.card>.content>.header, .ui.cards>.card>.content>.header, .ui.header{
   font-family: header;
 }
 
@@ -95,7 +143,7 @@ header {
   padding: 1.2rem 0;
   text-align: center;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
   color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   letter-spacing: 1px;

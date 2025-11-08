@@ -33,7 +33,7 @@
         <div class="ui twelve wide column">
           <div class="ui raised segment">
             <div class="ui large header">
-              Risky Peaks
+              <p id="pageTitle">Risky Peaks</p>
             </div>
             <div class="ui three equal width raised link stackable cards">
               <div class="ui card" data-modal="pitch">
@@ -41,7 +41,7 @@
                   <img src="images/climberBaseOfMountain.jpg" alt="Pitch Video Thumbnail">
                 </a>
                 <div class="content">
-                  <a class="header" href="#">Pitch Video</a>
+                  <a class="header" href="#">Pitch</a>
                 </div>
               </div>
               <div class="ui card" data-modal="brainstorm">
@@ -50,7 +50,7 @@
                 </a>
                 <div class="content">
                   <a class="header" href="#">
-                    Trello Brainstorm Board
+                    Brainstorm
                   </a>
                 </div>
               </div>
@@ -60,7 +60,7 @@
                 </a>
                 <div class="content">
                   <a class="header" href="#">
-                    Scrum Board
+                    Sprint 1
                   </a>
                 </div>
               </div>
@@ -70,59 +70,60 @@
       </div>
     </div>
 
-    <div class="ui modal" id="pitch">
-      <div class="header">Pitch Video</div>
-      <div class="content">
+    <div class="ui basic modal" id="pitch">
+      <div class="ui center aligned header">Pitch Video</div>
+      <div class="ui center aligned content">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CIZcl9PSw1o?si=hEyVVlDKm9W6zgJp" 
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <p><a href="slides/Presentation.pptx">Download </a><i class="download icon"></i></p>
+        <p><a href="slides/Presentation.pptx" id="download">Download the slides <i class="download icon"></i></a></p>
       </div>
       <div class="actions">
-        <div class="ui approve button">OK</div>
+        <div class="ui inverted approve button">OK</div>
       </div>
     </div>
     
-    <div class="ui modal" id="brainstorm">
-      <div class="header">Trello Brainstorm Board</div>
-      <div class="content">
+    <div class="ui basic modal" id="brainstorm">
+      <div class="ui center aligned header">Trello Brainstorm Board</div>
+      <div class="ui center aligned content">
         <div class="ui image">
           <img src="Brainstorm/chrome_WvPlDSRlbQ.png" alt="Brainstorm Trello Board"/>
+          <p><a href="Brainstorm/chrome_WvPlDSRlbQ.png">Download <i class="download icon"></i></a></p>
         </div>
       </div>
       <div class="actions">
-        <div class="ui approve button">OK</div>
+        <div class="ui inverted approve button">OK</div>
       </div>
     </div>
     
-    <div class="ui modal" id="scrum">
-      <div class="header">Scrum Board</div>
-      <div class="content">
+    <div class="ui basic modal" id="scrum">
+      <div class="ui center aligned header">Scrum Board</div>
+      <div class="ui center aligned content">
         <p>Details about the Scrum board.</p>
       </div>
       <div class="actions">
-        <div class="ui approve button">OK</div>
+        <div class="ui inverted approve button">OK</div>
       </div>
     </div>
 
-    <div class="ui modal" id="contact">
-      <div class="header">Scrum Board</div>
-      <div class="content">
+    <div class="ui basic modal" id="contact">
+      <div class="ui center aligned header">Scrum Board</div>
+      <div class="ui center aligned content">
         <p>Details about the Scrum board.</p>
       </div>
       <div class="actions">
-        <div class="ui approve button">OK</div>
+        <div class="ui inverted approve button">OK</div>
       </div>
     </div>
 
-    <div class="ui modal" id="about">
-      <div class="header">Scrum Board</div>
-      <div class="content">
+    <div class="ui basic modal" id="about">
+      <div class="ui center aligned header">Scrum Board</div>
+      <div class="ui center aligned content">
         <p>Details about the Scrum board.</p>
       </div>
       <div class="actions">
-        <div class="ui approve button">OK</div>
+        <div class="ui inverted approve button">OK</div>
       </div>
     </div>
     <!-- Fomantic UI JS && jQuery -->
