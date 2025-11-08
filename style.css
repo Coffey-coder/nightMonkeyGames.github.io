@@ -48,6 +48,7 @@ a:hover,
 */
 
 .ui.center.aligned.content p a,
+.ui.center.aligned.content p,
 label
 {
   color: white !important;
