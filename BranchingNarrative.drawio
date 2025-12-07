@@ -1,0 +1,531 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
+  <diagram name="Page-1" id="b4-RyYtG8IBU-uEeT3F5">
+    <mxGraphModel dx="632" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fewNX8dswtcaoYpQfW3t-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Level 1 (Village)" vertex="1">
+          <mxGeometry height="470" width="530" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-36" edge="1" parent="fewNX8dswtcaoYpQfW3t-25" source="fewNX8dswtcaoYpQfW3t-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-28" parent="fewNX8dswtcaoYpQfW3t-25" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Load game" vertex="1">
+          <mxGeometry height="120" width="140" x="30" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-29" parent="fewNX8dswtcaoYpQfW3t-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Intro Cutscene&lt;div&gt;Talk to elder&lt;/div&gt;&lt;div&gt;See sick village folk&lt;/div&gt;&lt;div&gt;Call to action&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-31" parent="fewNX8dswtcaoYpQfW3t-25" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player Explores" vertex="1">
+          <mxGeometry height="120" width="140" x="260" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-32" parent="fewNX8dswtcaoYpQfW3t-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Totems reward&lt;div&gt;Act as checkpoints for&lt;/div&gt;&lt;div&gt;backtracking&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-33" parent="fewNX8dswtcaoYpQfW3t-25" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player Doesn&#39;t Explore" vertex="1">
+          <mxGeometry height="120" width="140" x="260" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-34" parent="fewNX8dswtcaoYpQfW3t-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="No totems acquired" vertex="1">
+          <mxGeometry height="90" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-35" edge="1" parent="fewNX8dswtcaoYpQfW3t-25" source="fewNX8dswtcaoYpQfW3t-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="fewNX8dswtcaoYpQfW3t-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-142" parent="fewNX8dswtcaoYpQfW3t-25" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Intro to village&lt;/h1&gt;&lt;div&gt;-Player is introduced to village, and the disease that is affecting its people. Told that cure is at the top of the mountain, and that &quot;you&quot; are the only one capeable&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="230" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-26" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="Level 2 (Caves)" vertex="1">
+          <mxGeometry height="470" width="810" x="690" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-3" parent="fewNX8dswtcaoYpQfW3t-26" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Easy" vertex="1">
+          <mxGeometry height="60" width="140" x="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-4" parent="fewNX8dswtcaoYpQfW3t-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Simple jumps/climbs" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-9" parent="fewNX8dswtcaoYpQfW3t-26" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Medium" vertex="1">
+          <mxGeometry height="60" width="140" x="280" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-10" parent="fewNX8dswtcaoYpQfW3t-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Normal Jumps/climbs" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-12" parent="fewNX8dswtcaoYpQfW3t-26" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Hard" vertex="1">
+          <mxGeometry height="60" width="140" x="280" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-13" parent="fewNX8dswtcaoYpQfW3t-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Skill Jumps/climbs" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-18" parent="fewNX8dswtcaoYpQfW3t-26" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Meeting Friendly Spirit" vertex="1">
+          <mxGeometry height="70" width="140" x="450" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-19" parent="fewNX8dswtcaoYpQfW3t-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Assists player in navigation" vertex="1">
+          <mxGeometry height="40" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-23" parent="fewNX8dswtcaoYpQfW3t-26" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ShopKeeper" vertex="1">
+          <mxGeometry height="130" width="140" x="640" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-24" parent="fewNX8dswtcaoYpQfW3t-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Offers totems if player doesn&#39;t have them&lt;div&gt;- Randomized offer items&lt;/div&gt;&lt;div&gt;-Player can use XP gained to level skills&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-21" edge="1" parent="fewNX8dswtcaoYpQfW3t-26" source="fewNX8dswtcaoYpQfW3t-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="195" />
+              <mxPoint x="440" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-37" parent="fewNX8dswtcaoYpQfW3t-26" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Action Start" vertex="1">
+          <mxGeometry height="120" width="130" x="20" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-38" parent="fewNX8dswtcaoYpQfW3t-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Foot of the mountain" vertex="1">
+          <mxGeometry height="90" width="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-41" edge="1" parent="fewNX8dswtcaoYpQfW3t-26" source="fewNX8dswtcaoYpQfW3t-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="305" />
+              <mxPoint x="440" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-42" edge="1" parent="fewNX8dswtcaoYpQfW3t-26" source="fewNX8dswtcaoYpQfW3t-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-43" edge="1" parent="fewNX8dswtcaoYpQfW3t-26" source="fewNX8dswtcaoYpQfW3t-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-44" edge="1" parent="fewNX8dswtcaoYpQfW3t-26" source="fewNX8dswtcaoYpQfW3t-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-45" edge="1" parent="fewNX8dswtcaoYpQfW3t-26" source="fewNX8dswtcaoYpQfW3t-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-46" edge="1" parent="fewNX8dswtcaoYpQfW3t-26" source="fewNX8dswtcaoYpQfW3t-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-141" parent="fewNX8dswtcaoYpQfW3t-26" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Intro to mountain&lt;/h1&gt;&lt;div&gt;-Player first meets mountain spirit on this level, as they begin the climb, mountain spirit separates land in front of them forcing player to jump, creates cliffs which forces player to climb&lt;/div&gt;&lt;div&gt;- Mountain spirit believes humans only want to take advantage of his offerings for personal gain&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="230" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-39" edge="1" parent="1" source="fewNX8dswtcaoYpQfW3t-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-40" edge="1" parent="1" source="fewNX8dswtcaoYpQfW3t-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-47" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Level 3 (Jagged Cliffs)" vertex="1">
+          <mxGeometry height="470" width="1010" x="1500" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-59" parent="fewNX8dswtcaoYpQfW3t-47" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Action Start" vertex="1">
+          <mxGeometry height="120" width="130" x="20" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-60" parent="fewNX8dswtcaoYpQfW3t-59" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Meets stranded character 1 at base of next climb section" vertex="1">
+          <mxGeometry height="90" width="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-67" parent="fewNX8dswtcaoYpQfW3t-47" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Saves Climber" vertex="1">
+          <mxGeometry height="120" width="130" x="240" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-68" parent="fewNX8dswtcaoYpQfW3t-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Climber gives player information on next level - shortcut &amp;amp; way to evade obstacles" vertex="1">
+          <mxGeometry height="90" width="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-69" parent="fewNX8dswtcaoYpQfW3t-47" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Ignores climber" vertex="1">
+          <mxGeometry height="120" width="130" x="240" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-70" parent="fewNX8dswtcaoYpQfW3t-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-Karma for player, shop prices increased" vertex="1">
+          <mxGeometry height="90" width="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-71" edge="1" parent="fewNX8dswtcaoYpQfW3t-47" source="fewNX8dswtcaoYpQfW3t-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-72" edge="1" parent="fewNX8dswtcaoYpQfW3t-47" source="fewNX8dswtcaoYpQfW3t-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-83" edge="1" parent="fewNX8dswtcaoYpQfW3t-47" source="fewNX8dswtcaoYpQfW3t-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-85" edge="1" parent="fewNX8dswtcaoYpQfW3t-47" source="fewNX8dswtcaoYpQfW3t-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="225" />
+              <mxPoint x="520" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-86" edge="1" parent="fewNX8dswtcaoYpQfW3t-47" source="fewNX8dswtcaoYpQfW3t-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="225" />
+              <mxPoint x="520" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-73" parent="fewNX8dswtcaoYpQfW3t-47" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Climb start" vertex="1">
+          <mxGeometry height="30" width="130" x="410" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-75" edge="1" parent="fewNX8dswtcaoYpQfW3t-47" source="fewNX8dswtcaoYpQfW3t-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-76" edge="1" parent="fewNX8dswtcaoYpQfW3t-47" source="fewNX8dswtcaoYpQfW3t-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-77" parent="fewNX8dswtcaoYpQfW3t-47" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Easy" vertex="1">
+          <mxGeometry height="70" width="140" x="610" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-78" parent="fewNX8dswtcaoYpQfW3t-77" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Prev + falling stones that slow player" vertex="1">
+          <mxGeometry height="40" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-79" parent="fewNX8dswtcaoYpQfW3t-47" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Medium" vertex="1">
+          <mxGeometry height="80" width="140" x="610" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-112" edge="1" parent="fewNX8dswtcaoYpQfW3t-79" source="fewNX8dswtcaoYpQfW3t-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-80" parent="fewNX8dswtcaoYpQfW3t-79" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Prev + falling stones that knock player back" vertex="1">
+          <mxGeometry height="50" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-81" parent="fewNX8dswtcaoYpQfW3t-47" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Hard" vertex="1">
+          <mxGeometry height="80" width="140" x="610" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-82" parent="fewNX8dswtcaoYpQfW3t-81" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Prev + falling stoness that may kill player" vertex="1">
+          <mxGeometry height="50" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-109" parent="fewNX8dswtcaoYpQfW3t-47" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ShopKeeper" vertex="1">
+          <mxGeometry height="160" width="140" x="830" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-110" parent="fewNX8dswtcaoYpQfW3t-109" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Offers totems if player doesn&#39;t have them&lt;div&gt;- Randomized offer items&lt;/div&gt;&lt;div&gt;-Player can use XP gained to level skills&lt;br&gt;&lt;div&gt;-Karma affects shop prices &amp;amp; quality of items&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-111" edge="1" parent="fewNX8dswtcaoYpQfW3t-47" source="fewNX8dswtcaoYpQfW3t-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-113" edge="1" parent="fewNX8dswtcaoYpQfW3t-47" source="fewNX8dswtcaoYpQfW3t-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="340" />
+              <mxPoint x="790" y="225" />
+            </Array>
+            <mxPoint x="830" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-143" parent="fewNX8dswtcaoYpQfW3t-47" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Intro to stranded&lt;/h1&gt;&lt;div&gt;-Player meet stranded climber that have previously attempted the climb. Can offer to help or ignore, changing player karma (hidden from player) which affects ending &amp;amp; shop items/prices.&lt;/div&gt;&lt;div&gt;- Introduces shuffle mechanic&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="230" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-87" edge="1" parent="1" source="fewNX8dswtcaoYpQfW3t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-114" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Level 3 (Fiery Ravine)" vertex="1">
+          <mxGeometry height="470" width="1010" x="2510" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-146" edge="1" parent="fewNX8dswtcaoYpQfW3t-114" source="fewNX8dswtcaoYpQfW3t-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-130">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="180" />
+              <mxPoint x="300" y="180" />
+              <mxPoint x="300" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-147" edge="1" parent="fewNX8dswtcaoYpQfW3t-114" source="fewNX8dswtcaoYpQfW3t-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-148" edge="1" parent="fewNX8dswtcaoYpQfW3t-114" source="fewNX8dswtcaoYpQfW3t-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-126" parent="fewNX8dswtcaoYpQfW3t-114" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Meeting Mountain" vertex="1">
+          <mxGeometry height="30" width="130" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-129" parent="fewNX8dswtcaoYpQfW3t-114" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Easy" vertex="1">
+          <mxGeometry height="90" width="140" x="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-130" parent="fewNX8dswtcaoYpQfW3t-129" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Prev&amp;nbsp; + one stranded player which rewards normal item - costs oxygen" vertex="1">
+          <mxGeometry height="60" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-131" parent="fewNX8dswtcaoYpQfW3t-114" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Medium" vertex="1">
+          <mxGeometry height="110" width="140" x="340" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-133" parent="fewNX8dswtcaoYpQfW3t-131" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Prev + two stranded player which reward with shortcut &amp;amp; uncommon item" vertex="1">
+          <mxGeometry height="80" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-134" parent="fewNX8dswtcaoYpQfW3t-114" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Hard" vertex="1">
+          <mxGeometry height="130" width="140" x="340" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-135" parent="fewNX8dswtcaoYpQfW3t-134" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Prev + Fire grenades thrown by mountain spirit + three stranded players which reward shortcut, rare item &amp;amp; extra stamina for player" vertex="1">
+          <mxGeometry height="100" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-136" parent="fewNX8dswtcaoYpQfW3t-114" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ShopKeeper" vertex="1">
+          <mxGeometry height="160" width="140" x="830" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-137" parent="fewNX8dswtcaoYpQfW3t-136" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Offers totems if player doesn&#39;t have them&lt;div&gt;- Randomized offer items&lt;/div&gt;&lt;div&gt;-Player can use XP gained to level skills&lt;br&gt;&lt;div&gt;-Karma affects shop prices &amp;amp; quality of items&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-144" parent="fewNX8dswtcaoYpQfW3t-114" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Mountain gaining tension&lt;/h1&gt;&lt;div&gt;- Mountain spirit sees player gaining altitude and vows to prevent their ascent, if player has spirit guide, mountain kills it. If player does not, mountain attempts to strike player with huge boulders. Also erupts lava from ravine&lt;/div&gt;&lt;div&gt;- Introduces fire damage&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="300" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-153" edge="1" parent="fewNX8dswtcaoYpQfW3t-114" source="fewNX8dswtcaoYpQfW3t-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" target="fewNX8dswtcaoYpQfW3t-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="549.9999999999995" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-154" parent="fewNX8dswtcaoYpQfW3t-114" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Fire grenades" vertex="1">
+          <mxGeometry height="120" width="140" x="570" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-155" parent="fewNX8dswtcaoYpQfW3t-154" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="On the way to the shop, fire grenades are thrown at player as last ditch attempt from mountain spirit to stop them" vertex="1">
+          <mxGeometry height="90" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-156" edge="1" parent="fewNX8dswtcaoYpQfW3t-114" source="fewNX8dswtcaoYpQfW3t-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-157" edge="1" parent="fewNX8dswtcaoYpQfW3t-114" source="fewNX8dswtcaoYpQfW3t-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-158" edge="1" parent="fewNX8dswtcaoYpQfW3t-114" source="fewNX8dswtcaoYpQfW3t-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-145" edge="1" parent="1" source="fewNX8dswtcaoYpQfW3t-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-159" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Level 4 (Sticky Slime)" vertex="1">
+          <mxGeometry height="470" width="1010" x="3520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-160" edge="1" parent="fewNX8dswtcaoYpQfW3t-159" source="fewNX8dswtcaoYpQfW3t-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="200" />
+              <mxPoint x="300" y="200" />
+              <mxPoint x="300" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-161" edge="1" parent="fewNX8dswtcaoYpQfW3t-159" source="fewNX8dswtcaoYpQfW3t-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-162" edge="1" parent="fewNX8dswtcaoYpQfW3t-159" source="fewNX8dswtcaoYpQfW3t-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-163" parent="fewNX8dswtcaoYpQfW3t-159" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Mountain monologue&lt;br&gt;&amp;amp; Climb start" vertex="1">
+          <mxGeometry height="30" width="130" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-164" parent="fewNX8dswtcaoYpQfW3t-159" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Easy" vertex="1">
+          <mxGeometry height="140" width="140" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-165" parent="fewNX8dswtcaoYpQfW3t-164" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Prev + one stuck player who is nearly completely absorbed into slime, rewards player with slime removal tool after they extract them" vertex="1">
+          <mxGeometry height="110" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-166" parent="fewNX8dswtcaoYpQfW3t-159" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Medium" vertex="1">
+          <mxGeometry height="110" width="140" x="340" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-167" parent="fewNX8dswtcaoYpQfW3t-166" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Same as easy but with added challenge, stuck player is hidden." vertex="1">
+          <mxGeometry height="80" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-168" parent="fewNX8dswtcaoYpQfW3t-159" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Hard" vertex="1">
+          <mxGeometry height="150" width="140" x="340" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-169" parent="fewNX8dswtcaoYpQfW3t-168" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="As above, but with another stranded that attempts to push player off cliff as a way to reconcile with mountain spirit. If they succeed player is put back at beginning of level" vertex="1">
+          <mxGeometry height="120" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-170" parent="fewNX8dswtcaoYpQfW3t-159" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ShopKeeper" vertex="1">
+          <mxGeometry height="160" width="140" x="830" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-171" parent="fewNX8dswtcaoYpQfW3t-170" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Offers totems if player doesn&#39;t have them&lt;div&gt;- Randomized offer items&lt;/div&gt;&lt;div&gt;-Player can use XP gained to level skills&lt;br&gt;&lt;div&gt;-Karma affects shop prices &amp;amp; quality of items&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-172" parent="fewNX8dswtcaoYpQfW3t-159" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Change in pace&lt;/h1&gt;&lt;div&gt;- Mountain spirit takes different approach, covering next level in slime to try and slow the player down so much that they give up. Mechanic is slower movement for shuffles and jumps are shorter range.&lt;/div&gt;&lt;div&gt;- Player can also use slime to stick to walls&lt;/div&gt;&lt;div&gt;- No fire grenades on this level, replaces with slime grenades.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="300" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-174" parent="fewNX8dswtcaoYpQfW3t-159" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pitfall" vertex="1">
+          <mxGeometry height="120" width="140" x="580" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-175" parent="fewNX8dswtcaoYpQfW3t-174" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Unavoidable pit fall plunges player into slime pit, must climb out while avoiding grenades which threaten to keep player stuck" vertex="1">
+          <mxGeometry height="90" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-178" edge="1" parent="fewNX8dswtcaoYpQfW3t-159" source="fewNX8dswtcaoYpQfW3t-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-181" edge="1" parent="fewNX8dswtcaoYpQfW3t-159" source="fewNX8dswtcaoYpQfW3t-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-182" edge="1" parent="fewNX8dswtcaoYpQfW3t-159" source="fewNX8dswtcaoYpQfW3t-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-183" edge="1" parent="fewNX8dswtcaoYpQfW3t-159" source="fewNX8dswtcaoYpQfW3t-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-179" edge="1" parent="1" source="fewNX8dswtcaoYpQfW3t-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-184" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Level 5 (Cloudy Peaks)" vertex="1">
+          <mxGeometry height="470" width="1010" x="4530" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-185" edge="1" parent="fewNX8dswtcaoYpQfW3t-184" source="fewNX8dswtcaoYpQfW3t-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-190">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="200" />
+              <mxPoint x="320" y="200" />
+              <mxPoint x="320" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-186" edge="1" parent="fewNX8dswtcaoYpQfW3t-184" source="fewNX8dswtcaoYpQfW3t-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-187" edge="1" parent="fewNX8dswtcaoYpQfW3t-184" source="fewNX8dswtcaoYpQfW3t-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-188" parent="fewNX8dswtcaoYpQfW3t-184" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Mountain Grumble &amp;amp;&amp;nbsp;&lt;div&gt;Climb start&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-189" parent="fewNX8dswtcaoYpQfW3t-184" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Easy" vertex="1">
+          <mxGeometry height="140" width="140" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-190" parent="fewNX8dswtcaoYpQfW3t-189" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Player climbs just below cloudline, visibility is unobstructed until near the end of the level&amp;nbsp;" vertex="1">
+          <mxGeometry height="110" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-191" parent="fewNX8dswtcaoYpQfW3t-184" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Medium" vertex="1">
+          <mxGeometry height="110" width="140" x="380" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-192" parent="fewNX8dswtcaoYpQfW3t-191" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Visibility is reduced, increased challenge for player" vertex="1">
+          <mxGeometry height="80" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-193" parent="fewNX8dswtcaoYpQfW3t-184" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Hard" vertex="1">
+          <mxGeometry height="150" width="140" x="380" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-194" parent="fewNX8dswtcaoYpQfW3t-193" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Visibility is extremely low, jumps &amp;amp; obstacles come just out of sight nearly right in front of the player" vertex="1">
+          <mxGeometry height="120" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-195" parent="fewNX8dswtcaoYpQfW3t-184" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ShopKeeper" vertex="1">
+          <mxGeometry height="160" width="140" x="610" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-196" parent="fewNX8dswtcaoYpQfW3t-195" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Offers totems if player doesn&#39;t have them&lt;div&gt;- Randomized offer items&lt;/div&gt;&lt;div&gt;-Player can use XP gained to level skills&lt;br&gt;&lt;div&gt;-Karma affects shop prices &amp;amp; quality of items&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-197" parent="fewNX8dswtcaoYpQfW3t-184" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Increased challenge&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Increased challenge from lack of available oxygen at top of mountain, jumping/climbing costs more stamina&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- Paths can now change in front of player, player must&amp;nbsp;&lt;/div&gt;&lt;div&gt;bait changes from mountain spirit before committing&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="300" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-203" edge="1" parent="fewNX8dswtcaoYpQfW3t-184" source="fewNX8dswtcaoYpQfW3t-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-205" edge="1" parent="fewNX8dswtcaoYpQfW3t-184" source="fewNX8dswtcaoYpQfW3t-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-206" edge="1" parent="fewNX8dswtcaoYpQfW3t-184" source="fewNX8dswtcaoYpQfW3t-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-207" parent="fewNX8dswtcaoYpQfW3t-184" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Mountain destroys shop" vertex="1">
+          <mxGeometry height="160" width="140" x="800" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-208" parent="fewNX8dswtcaoYpQfW3t-207" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Mountain spirit expresses rage at shop for helping player climb, throws fireball and destroys shop (last checkpoint)" vertex="1">
+          <mxGeometry height="130" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-209" edge="1" parent="fewNX8dswtcaoYpQfW3t-184" source="fewNX8dswtcaoYpQfW3t-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-204" edge="1" parent="1" source="fewNX8dswtcaoYpQfW3t-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-210" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Level 6 (Summit)" vertex="1">
+          <mxGeometry height="470" width="1010" x="5540" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-239" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-232">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="265" />
+              <mxPoint x="310" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-240" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-234">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-241" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-236">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="265" />
+              <mxPoint x="310" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-214" parent="fewNX8dswtcaoYpQfW3t-210" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Path according to difficulty" vertex="1">
+          <mxGeometry height="30" width="130" x="110" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-221" parent="fewNX8dswtcaoYpQfW3t-210" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player doesn&#39;t get herb" vertex="1">
+          <mxGeometry height="100" width="140" x="590" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-222" parent="fewNX8dswtcaoYpQfW3t-221" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Player is throw off of mountain, falls into deep pit of despair and game ends" vertex="1">
+          <mxGeometry height="70" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-223" parent="fewNX8dswtcaoYpQfW3t-210" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Final fight&lt;/h1&gt;&lt;div&gt;- Difficulty of level will be determined by path the player chose through the game (majority easy = easy)&lt;/div&gt;&lt;div&gt;- If player neglected to rescue stuck travelers they will reappear here as spirits alongside the mountain spirit&lt;/div&gt;&lt;div&gt;- All enemies will use all introduced mechanics to prevent player reaching mystical cure herb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="300" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-227" parent="fewNX8dswtcaoYpQfW3t-210" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player didn&#39;t save some stranded &amp;amp; gets herb" vertex="1">
+          <mxGeometry height="100" width="140" x="590" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-228" parent="fewNX8dswtcaoYpQfW3t-227" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Mountain throws player back to village, lands safely- villagers shun player after taking herb" vertex="1">
+          <mxGeometry height="70" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-231" parent="fewNX8dswtcaoYpQfW3t-210" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player saved all stranded" vertex="1">
+          <mxGeometry height="130" width="140" x="350" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-232" parent="fewNX8dswtcaoYpQfW3t-231" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Mountain spirit notices player willingness to help, changes heart about humans and reduces challenge to peak" vertex="1">
+          <mxGeometry height="100" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-233" parent="fewNX8dswtcaoYpQfW3t-210" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player saved some stranded" vertex="1">
+          <mxGeometry height="130" width="140" x="350" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-234" parent="fewNX8dswtcaoYpQfW3t-233" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Mountain reaffirms belief that humans are bad &amp;amp; spirits of those left behind attempt to push player from mountain peak" vertex="1">
+          <mxGeometry height="100" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-235" parent="fewNX8dswtcaoYpQfW3t-210" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player did not save stranded" vertex="1">
+          <mxGeometry height="140" width="140" x="350" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-236" parent="fewNX8dswtcaoYpQfW3t-235" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Mountain reaffirms belief that humans are bad &amp;amp; spirits of those left behind also use mountain powers to prevent player reaching goal" vertex="1">
+          <mxGeometry height="110" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-242" parent="fewNX8dswtcaoYpQfW3t-210" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player saved all stranded &amp;amp; got herb" vertex="1">
+          <mxGeometry height="100" width="140" x="590" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-243" parent="fewNX8dswtcaoYpQfW3t-242" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Mountain creates path for player &amp;amp; player is hailed as new village chief" vertex="1">
+          <mxGeometry height="70" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-244" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-245" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-246" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-247" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-248" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-249" parent="fewNX8dswtcaoYpQfW3t-210" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Game end" vertex="1">
+          <mxGeometry height="100" width="140" x="820" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-250" parent="fewNX8dswtcaoYpQfW3t-249" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Stat screen of xp/level/items/stranded saved/total time/etc" vertex="1">
+          <mxGeometry height="70" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-251" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-252" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-253" edge="1" parent="fewNX8dswtcaoYpQfW3t-210" source="fewNX8dswtcaoYpQfW3t-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fewNX8dswtcaoYpQfW3t-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fewNX8dswtcaoYpQfW3t-238" edge="1" parent="1" source="fewNX8dswtcaoYpQfW3t-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fewNX8dswtcaoYpQfW3t-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
