@@ -39,7 +39,8 @@ a.ui.raised.card:hover,
 */
 .ui.three.equal.width.raised.link.stackable.cards > .ui.card:hover,
 .ui.two.raised.link.horizontal.cards > .ui.card:hover,
-.ui.three.raised.link.horizontal.cards > .ui.card:hover{
+.ui.three.raised.link.horizontal.cards > .ui.card:hover,
+.ui.raised.link.centered.cards > .ui.card:hover{
   box-shadow: 6px 6px rgb(255, 107, 71);
 }
 
@@ -53,7 +54,8 @@ a.ui.raised.card:hover,
 .ui.raised.cards > .card,
 .ui.menu .active.item:hover,
 .ui.menu .item:hover,
-.ui.three.equal.width.raised.link.stackable.cards .ui.card .content .header:hover{
+.ui.three.equal.width.raised.link.stackable.cards .ui.card .content .header:hover,
+.ui.raised.link.centered.cards{
   color: rgb(255, 214, 141) !important;
   text-shadow: 1px 1px rgb(255, 107, 71);
 }
